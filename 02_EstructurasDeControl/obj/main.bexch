@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\estructurasdecontrol.gpr
+20221110071310 f906a1b1e6c7bdd011405678d44b0aea
+[BOUND OBJECT FILES]
+C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\obj\
+-LC:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
