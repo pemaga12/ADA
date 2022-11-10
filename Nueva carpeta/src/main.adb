@@ -20,5 +20,4 @@ begin
       Put_Line("Despues Intercambiar:" & Primero'Image & " " & Segundo'Image);
    end;
    null;
-
 end Main;
