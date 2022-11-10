@@ -1,5 +1,6 @@
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
+with Ada.Strings.Fixed; use Ada.Strings.Fixed;    -- Herramientas para los strings
 
 procedure Main is
 
@@ -51,6 +52,7 @@ begin
    --  begin
    --     Put_Line("Cuantas veces quieres que te salude?");
    --     Get(Numero);
+   --     -- Put_Line(Numero * "Hola guapo");
    --     -- Numero := Integer'Value(Get_Line);
    --     for i in 1..Numero loop
    --        Put_Line("Hola guapo");
@@ -101,5 +103,23 @@ begin
    --        end;
    --     end loop;
    --  end;
+
+   --  declare
+   --     Nota : Integer;
+   --  begin
+   --     Put_Line("Ingrese su nota del exámen");
+   --     Get(Nota);
+   --     case Nota is
+   --        when 0 => Put_Line("Has copiado, vete con el rector");
+   --        when 1..4 => Put_Line("Suspendiste crack");
+   --        when 5 => Put_Line("Aprobado con lo justo");
+   --        when 6 | 7 => Put_Line("Aprobado");
+   --        when 8..9 => Put_Line("Muy bien");
+   --        when 10 => Put_Line("Eres un crack");
+   --        when others => Put_Line("Esa nota no es válida");
+   --     end case;
+
+
+   end;
    null;
 end Main;

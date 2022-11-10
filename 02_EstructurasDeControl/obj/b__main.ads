@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#021da3d9#;
+   u00001 : constant Version_32 := 16#aecc03ce#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#2e11c0b1#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -312,14 +312,18 @@ package ada_main is
    pragma Export (C, u00135, "system__val_llliS");
    u00136 : constant Version_32 := 16#f82486d6#;
    pragma Export (C, u00136, "system__val_llluS");
-   u00137 : constant Version_32 := 16#fd83e873#;
-   pragma Export (C, u00137, "system__concat_2B");
-   u00138 : constant Version_32 := 16#2d5a86c4#;
-   pragma Export (C, u00138, "system__concat_2S");
-   u00139 : constant Version_32 := 16#eca5ecae#;
-   pragma Export (C, u00139, "system__memoryB");
-   u00140 : constant Version_32 := 16#76873720#;
-   pragma Export (C, u00140, "system__memoryS");
+   u00137 : constant Version_32 := 16#0de7ae30#;
+   pragma Export (C, u00137, "ada__strings__fixedB");
+   u00138 : constant Version_32 := 16#64881af1#;
+   pragma Export (C, u00138, "ada__strings__fixedS");
+   u00139 : constant Version_32 := 16#bb264ce2#;
+   pragma Export (C, u00139, "ada__strings__searchB");
+   u00140 : constant Version_32 := 16#73987e07#;
+   pragma Export (C, u00140, "ada__strings__searchS");
+   u00141 : constant Version_32 := 16#eca5ecae#;
+   pragma Export (C, u00141, "system__memoryB");
+   u00142 : constant Version_32 := 16#76873720#;
+   pragma Export (C, u00142, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -363,8 +367,6 @@ package ada_main is
    --  system.wch_jis%b
    --  system.wch_cnv%s
    --  system.wch_cnv%b
-   --  system.concat_2%s
-   --  system.concat_2%b
    --  system.traceback%s
    --  system.traceback%b
    --  ada.characters.handling%s
@@ -429,6 +431,10 @@ package ada_main is
    --  system.traceback.symbolic%s
    --  system.traceback.symbolic%b
    --  ada.exceptions%b
+   --  ada.strings.search%s
+   --  ada.strings.search%b
+   --  ada.strings.fixed%s
+   --  ada.strings.fixed%b
    --  ada.strings.utf_encoding%s
    --  ada.strings.utf_encoding%b
    --  ada.strings.utf_encoding.wide_strings%s

@@ -1,17 +1,17 @@
 [GENERATED OBJECT FILE]
 b__main.o
 [PROJECT FILES]
-C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\estructurasdecontrol.gpr
-20221110071310 f906a1b1e6c7bdd011405678d44b0aea
+C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\02_EstructurasDeControl\estructurasdecontrol.gpr
+20221110071310 85b4a1da97fc559645c8bcc7c9fdc42d
 [BOUND OBJECT FILES]
-C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\obj\main.o
+C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\02_EstructurasDeControl\obj\main.o
 [GENERATED SOURCE FILES]
 b__main.ads
 b__main.adb
 b__main.ali
 [RESULTING OPTIONS]
--LC:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\obj\
--LC:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\obj\
+-LC:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\02_EstructurasDeControl\obj\
+-LC:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\02_EstructurasDeControl\obj\
 -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
 -static
 -static-libgcc

@@ -7,11 +7,11 @@ P ZX
 
 RN
 RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		aecc03ce NE OO SU
+U main%b		main.adb		2e977f99 NE OO SU
 W ada%s			ada.ads			ada.ali
-W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.strings%s		a-string.ads		a-string.ali
 W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
@@ -21,7 +21,6 @@ D ada.ads		20210520051132 76789da1 ada%s
 D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
 D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
-D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
 D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
 D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
 D a-string.ads		20210520051130 90ac6797 ada.strings%s
@@ -31,11 +30,10 @@ D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
 D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
-D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20221110100054 58dfab4b main%b
+D main.adb		20221110102322 2ecf5eb8 main%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
@@ -53,21 +51,19 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [main standard 5 11 none]
+G c Z b b [main standard 4 11 none]
 X 1 ada.ads
-16K9*Ada 20e8 19|1r6 1r23 2r6 2r31 3r6 3r29
-X 5 a-inteio.ads
-18K13*Integer_Text_IO[15|46] 19|2w10 2r35
-X 8 a-string.ads
-16K13*Strings 35e16 19|3r10 3r33
-X 9 a-strfix.ads
-43K21*Fixed 1398e22 19|3w18 3r41
-X 14 a-textio.ads
-58K13*Text_IO 725e16 19|1w10 1r27
-506U14*Put_Line 19|110s7 113s20 114s23 115s20 116s24 117s23 118s21 119s25
-X 15 a-tiinio.ads
-59U14*Get 19|111s7[5|18]
-X 19 main.adb
-5U11*Main 5b11 123l5 123t9
-108i7 Nota{integer} 111m11 112r12
+16K9*Ada 20e8 17|1r6 1r23 2r6
+X 7 a-string.ads
+16K13*Strings 35e16 17|2r10
+X 8 a-strfix.ads
+43K21*Fixed 1398e22 17|2w18
+X 13 a-textio.ads
+58K13*Text_IO 725e16 17|1w10 1r27
+390U14*Put 17|25s10
+X 17 main.adb
+4U11*Main 4b11 32l5 32t9
+22U14 Put_Reverse_Line 22b14 22>31 28t7 30s7
+22a31 Texto{string} 24r24
+24e11 i=24:24{character} 25r14
 
