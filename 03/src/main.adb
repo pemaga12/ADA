@@ -7,7 +7,6 @@ procedure Main is
    --  -- Numero_Al_Azar : Uniformly_Distributed;
    Numero_Al_Azar : Integer;
    Es_Correcto : Boolean := False;
-   Intentos : Integer := 0;
    Numero_Introducido : Integer;
 begin
    --  if Es_Correcto then
