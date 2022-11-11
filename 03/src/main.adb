@@ -18,20 +18,20 @@ begin
       --  end if;
       -- Generamos el numero
    Numero_Al_Azar := Integer((Random(G) * 100.0) + 1.0);
-   Put_Line("Se ha generado el número. Tienes 5 intentos");
+   Put_Line("Se ha generado el número. Tienes 5 intentos.");
    for I in 1..5 loop
       Put_Line("Introduce un numero");
       Numero_Introducido := Integer'Value(Get_Line);
       if (Numero_Introducido > Numero_Al_Azar) then
-            Put_Line("El numero que has introducido es mayor");
+            Put_Line("El numero que has introducido es mayor.");
       elsif (Numero_Introducido < Numero_Al_Azar) then
-            Put_Line("El numero que has introducido es menor");
+            Put_Line("El numero que has introducido es menor.");
       else
          Put_Line("Acertaste el número!");
          Es_Correcto := True;
          exit when Es_Correcto = True;
       end if;
    end loop;
-   Put_Line("El numero era " & Numero_Al_Azar'Image);
+   Put_Line("El número era " & Numero_Al_Azar'Image);
    null;
 end Main;
