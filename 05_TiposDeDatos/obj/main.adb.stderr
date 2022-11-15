@@ -1,0 +1,3 @@
+main.adb:3:16: error: missing ";"
+main.adb:25:13: error: "Dias_Semana" is not visible
+main.adb:25:13: error: non-visible declaration at calendario.ads:3

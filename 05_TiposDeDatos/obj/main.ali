@@ -1,0 +1,103 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U main%b		main.adb		08ee1c09 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W figuras%s		figuras.adb		figuras.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D figuras.ads		20221115080258 cf31e8e6 figuras%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D main.adb		20221115090424 88a16622 main%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 5 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 1r23 3r6 3r29
+X 3 a-flteio.ads
+20K13*Float_Text_IO[11|46] 16|3w10 3r33
+X 10 a-textio.ads
+58K13*Text_IO 725e16 16|1w10 1r27
+506U14*Put_Line 16|42s7 45s13 47s13 49s13 51s13
+X 13 figuras.ads
+1K9*figuras 11e12 16|2w6 2r19
+3F9*Distancia<float> 16|18r11 19r13
+5F9*Area<float> 16|20r21
+X 16 main.adb
+5U11*Main 5b11 70l5 70t9
+14E9 Dias_Semana 14e84 26r13
+14n25 Lunes{14E9}
+14n32 Martes{14E9}
+14n40 Miercoles{14E9}
+14n51 Jueves{14E9}
+14n59 Viernes{14E9}
+14n68 Sabado{14E9}
+14n76 Domingo{14E9}
+15E9 Meses 15e118 41r15
+15n19 Enero{15E9} 50r15
+15n26 Febrero{15E9} 50r22
+15n35 Marzo{15E9} 44r15
+15n42 Abril{15E9}
+15n49 Mayo{15E9}
+15n55 Junio{15E9} 44r22
+15n62 Julio{15E9} 46r15
+15n69 Agosto{15E9}
+15n77 Septiembre{15E9} 46r22
+15n89 Octubre{15E9} 48r15
+15n98 Noviembre{15E9}
+15n108 Diciembre{15E9} 48r24
+16E9 Estaciones 16e59
+16n24 Primavera{16E9} 45r30
+16n35 Verano{16E9} 47r30
+16n43 Otoño{16E9} 49r30
+16n50 Invierno{16E9} 51r30
+18f4 Base{13|3F9}
+19f4 Altura{13|3F9}
+20f4 Area_Triangulo{13|5F9}
+26e4 Hoy_Es{14E9}
+41e8 Mes{15E9} 42r28 43r12
+

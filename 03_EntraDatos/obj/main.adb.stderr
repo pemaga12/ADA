@@ -1,0 +1,8 @@
+main.adb:55:56: error: missing ")"
+main.adb:67:84: error: identifier expected
+main.adb:76:14: error: declarations must come before "begin"
+main.adb:89:14: error: "end loop Pedir_num;" expected
+main.adb:89:22: error: missing ";"
+main.adb:110:01: error: "end;" expected for "begin" at line 92
+main.adb:110:01: error: "end Get_Integer_Between;" expected
+main.adb:110:01: error: missing "begin" for procedure "Main" at line 3
