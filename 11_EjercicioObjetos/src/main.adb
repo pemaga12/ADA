@@ -10,5 +10,11 @@ procedure Main is
 begin
    --  Insert code here.
    Put_Line(Alumno1.Get_Nombre);
+   Alumno1.Rendir_Examen(5);
+   Alumno1.Rendir_Examen(9);
+   Alumno1.Rendir_Examen(7);
+   Alumno1.Rendir_Examen(6);
+   Alumno1.Rendir_Examen(5);
+   Put_Line(Alumno1.Calcular_Promedio'Image);
    null;
 end Main;
