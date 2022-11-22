@@ -1,0 +1,5 @@
+p_persona.adb:6:10: error: no candidate interpretations match the actuals:
+p_persona.adb:6:10: error: missing argument for parameter "Item" in call to "Put_Line" declared at a-textio.ads:496
+p_persona.adb:8:25: error: expected type "Standard.String"
+p_persona.adb:8:25: error: found private type "Ada.Strings.Unbounded.Unbounded_String"
+p_persona.adb:8:25: error:   ==> in call to "Put_Line" at a-textio.ads:506

@@ -1,0 +1,5 @@
+calendario.adb:1:35: error: compilation unit expected
+calendario.adb:5:27: error: identifier expected
+calendario.adb:6:07: error: missing "begin" for procedure "Mostrar_Dias" at line 5
+calendario.adb:21:28: error: identifier expected
+calendario.adb:22:07: error: missing "begin" for procedure "Mostrar_Meses" at line 21

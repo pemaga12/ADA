@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\11_EjercicioObjetos\default.gpr
+20221122094438 fda25742ae157037a13b90cc48d6084c
+[BOUND OBJECT FILES]
+C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\11_EjercicioObjetos\obj\alumno_model.o
+C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\11_EjercicioObjetos\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\11_EjercicioObjetos\obj\
+-LC:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\11_EjercicioObjetos\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

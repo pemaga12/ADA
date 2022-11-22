@@ -1,0 +1,2 @@
+alumno_model.adb:9:25: warning: formal parameter "This" is read but never assigned [-gnatwf]
+alumno_model.adb:19:31: warning: formal parameter "This" is read but never assigned [-gnatwf]

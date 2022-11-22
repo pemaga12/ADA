@@ -1,7 +1,8 @@
 with Ada.Text_IO; use Ada.Text_IO;
 with figuras; use figuras;
-with Calendario use Calendario;
+--with Calendario; use Calendario;
 with Ada.Float_Text_IO; use Ada.Float_Text_IO;
+with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 
 procedure Main is
    -- type Distancia is new Float;
@@ -14,9 +15,9 @@ procedure Main is
    -- type Angulo is mod 360; --Los tipos de datos modular solo funcionan para enteros
 
 
-   Base : Distancia := 10.0;
-   Altura : Distancia := 15.0;
-   Area_Triangulo : Area;
+   --Base : Distancia := 10.0;
+   --Altura : Distancia := 15.0;
+   --Area_Triangulo : Area;
 
    --  Nota_Examen : Nota;
    --  N: Numero_Muy_Largo;
@@ -66,6 +67,33 @@ begin
    --  end loop;
 
    -- Crear el paquete calendario y mover al paquete los tipos de datos relacionados
+    --  declare
+    --    type Nota is new Integer range 1..10;
+    --    subtype Notas_Buenas is Nota range 8..10;
+    --    subtype Notas_Aprobadas is Nota range 4..7;
+    --    subtype Notas_Malas is Nota range 1..3;
+    --
+    --    Examen : Nota := 10;
+    --    Mala_Nota : Notas_Malas;
+    --  begin
+    --    --Put_Line(Examen'Image);
+    --    Put_Line("¿Que nota sacaste?");
+    --    Get(Integer(Examen));
+    --    case Examen is
+    --       when Notas_Malas => Put_Line("Te sacaste una mala nota");
+    --       when Notas_Buenas => Put_Line("Te sacaste una buena nota");
+    --       when Notas_Aprobadas => Put_Line("Aprobaste!");
+    --    end case;
+    --  end;
+   declare
+      subtype Cantidad is Positive;
+
+      A: Cantidad := 10;
+      B: Positive := 40;
+   begin
+      B := A;
+      Put_Line("Declaro un alias de tipo");
+   end;
 
    null;
 end Main;

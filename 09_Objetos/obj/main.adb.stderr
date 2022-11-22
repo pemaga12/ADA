@@ -1,0 +1,4 @@
+main.adb:20:34: error: expected type "C_Persona" defined at p_persona.ads:6
+main.adb:20:34: error: found an access type
+main.adb:22:22: error: expected type "C_Persona" defined at p_persona.ads:6
+main.adb:22:22: error: found type access to "C_Persona" defined at line 22
