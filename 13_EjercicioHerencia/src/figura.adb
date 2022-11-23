@@ -1,9 +1,9 @@
 package body Figura is
 
-   function Calcular_Area() return float is
+   procedure D is
    begin
-   end;
-   
+      null;
+   end D;
 
 
 end Figura;
