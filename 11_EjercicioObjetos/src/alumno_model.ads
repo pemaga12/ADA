@@ -1,6 +1,7 @@
 with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Containers.Vectors;
+with Persona_Model;
 
 
 
@@ -23,7 +24,8 @@ package Alumno_Model is
    function Calcular_Promedio(This: out C_Alumno) return Float;
    
 private
-   type C_Alumno is tagged record
+   -- type C_Alumno is tagged record
+   type C_Alumno is new C_Persona with Record
       Nombre: Unbounded_String;
       Notas: Integer_Array_Notas.Vector;
    end record;

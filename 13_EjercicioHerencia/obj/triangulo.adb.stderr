@@ -1,0 +1,6 @@
+triangulo.adb:1:14: error: missing body for "D" declared at triangulo.ads:11
+triangulo.adb:10:39: error: expected type "Standard.Float"
+triangulo.adb:10:39: error: found type "Lado" defined at triangulo.ads:5
+figura.ads:4:15: error: "Unbounded_String" is undefined
+figura.ads:6:26: error: "C_Persona" is undefined
+figura.ads:13:09: error: "C_Figura" conflicts with declaration at line 3

@@ -202,13 +202,13 @@
       <vfs_project />
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\10_Encapsulamiento\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 2" >
+    <file_marker column=" 61" line=" 18" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\11_EjercicioObjetos\default.gpr</vfs_project>
-      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\11_EjercicioObjetos\src\alumno_,model.ads</vfs_file>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\11_EjercicioObjetos\src\profesor_model.ads</vfs_file>
     </file_marker>
     <file_marker current="true" column=" 4" line=" 3" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\11_EjercicioObjetos\default.gpr</vfs_project>
-      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\11_EjercicioObjetos\src\alumno_model.adb</vfs_file>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\11_EjercicioObjetos\src\persona_model.adb</vfs_file>
     </file_marker>
   </Project>
   <Project >

@@ -6,29 +6,77 @@ A -march=x86-64
 P SS ZX
 
 RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
 RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
 RV NO_FLOATING_POINT
 RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
 RV NO_SECONDARY_STACK
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
 RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV NO_IMPLICIT_LOOPS
+RV STATIC_DISPATCH_TABLES
 
-U main%b		main.adb		9e339fcb NE OO SU
+U main%b		main.adb		b6bb3a34 NE OO SU
 W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.generic_array_sort%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+Z ada.containers.vectors%s
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+Z ada.iterator_interfaces%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
 W ada.strings%s		a-string.ads		a-string.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
 W alumno_model%s	alumno_model.adb	alumno_model.ali
+W aula%s		aula.adb		aula.ali
+W profesor_model%s	profesor_model.adb	profesor_model.ali
+Z system%s		system.ads		system.ali
+Z system.address_image%s  s-addima.adb		s-addima.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
 Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
 Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
 D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
 D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
 D a-contai.ads		20210520051128 61e5e089 ada.containers%s
+D a-cgarso.ads		20210520051128 9129bfa8 ada.containers.generic_array_sort%s
 D a-conhel.ads		20210520051128 20298884 ada.containers.helpers%s
+D a-conhel.adb		20210520051128 fe7a6827 ada.containers.helpers%b
 D a-convec.ads		20210520051128 5d39d84a ada.containers.vectors%s
+D a-convec.adb		20210520051128 8dbd1ef5 ada.containers.vectors%b
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
 D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
 D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
@@ -46,20 +94,29 @@ D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D a-uncdea.ads		20210520051130 c3a8ac65 ada.unchecked_deallocation%s
 D alumno_model.ads	20221122101940 cdbca835 alumno_model%s
+D aula.ads		20221123084650 1b0e5030 aula%s
+D aula.adb		20221123084006 da6e3958 aula%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20221122103102 1fc3f714 main%b
+D main.adb		20221123091634 a34357cf main%b
+D profesor_model.ads	20221123091618 8f065514 profesor_model%s
 D system.ads		20210520051136 2ffa5114 system%s
+D s-addima.ads		20210520051132 a1ec9d3a system.address_image%s
 D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
+D s-atocou.adb		20210520051132 b65612c0 system.atomic_counters%b
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
 D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
 D s-finmas.ads		20210520051132 1ab4dba8 system.finalization_masters%s
 D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
 D s-imager.ads		20210520051134 500b11a9 system.image_r%s
 D s-imageu.ads		20210520051134 525c30c6 system.image_u%s
 D s-imgflt.ads		20210520051134 78689de8 system.img_flt%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
 D s-imguns.ads		20210520051134 0e4da2ac system.img_uns%s
+D s-memory.ads		20210520051134 597d6634 system.memory%s
 D s-parame.ads		20210520051134 4752c4cb system.parameters%s
 D s-pooglo.ads		20210520051134 ede33ef8 system.pool_global%s
 D s-powflt.ads		20210520051134 46f7a1b9 system.powten_flt%s
@@ -68,9 +125,11 @@ D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
 D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
 D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
 D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stalib.adb		20210520051134 977290bf system.standard_library%b
 D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
 D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
 D s-stopoo.ads		20210520051134 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20210520051134 e251976f system.storage_pools.subpools%s
 D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
 D s-string.ads		20210520051134 8fe54fb7 system.strings%s
 D s-ststop.ads		20210520051134 5fbf1b38 system.strings.stream_ops%s
@@ -79,33 +138,68 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [main standard 6 11 none]
-G r c none [main standard 6 11 none] [create alumno_model 17 13 none]
-G r c none [main standard 6 11 none] [get_nombre alumno_model 19 13 none]
-G r c none [main standard 6 11 none] [rendir_examen alumno_model 21 14 none]
-G r c none [main standard 6 11 none] [calcular_promedio alumno_model 23 13 none]
+G c Z b b [main standard 8 11 none]
+G r c none [main standard 8 11 none] [create alumno_model 17 13 none]
+G r c none [main standard 8 11 none] [create profesor_model 16 13 none]
+G r i none [main standard 8 11 none] [aula standard 5 9 none]
+G r c none [main standard 8 11 none] [get_nombre alumno_model 19 13 none]
+G r c none [main standard 8 11 none] [rendir_examen alumno_model 21 14 none]
+G r c none [main standard 8 11 none] [calcular_promedio alumno_model 23 13 none]
+G r c none [main standard 8 11 none] [get_nombre profesor_model 18 13 none]
+G r c none [main standard 8 11 none] [add_curso profesor_model 22 14 none]
+G r c none [main standard 8 11 none] [get_curso profesor_model 19 13 none]
+G r c none [main standard 8 11 none] [aumentar_curso profesor_model 26 14 none]
 X 1 ada.ads
-16K9*Ada 20e8 26|2r6 2r33 3r6 3r29 4r6 4r23
-X 9 a-flteio.ads
-20K13*Float_Text_IO[20|46] 26|3w10 3r33
-X 11 a-iteint.ads
+16K9*Ada 20e8 31|2r6 2r33 3r6 3r29 4r6 4r23
+X 8 a-convec.ads
+91R9 Vector<11|43R9>
+483U14 Append 31|31s25[27|7[31|18]]
+X 12 a-flteio.ads
+20K13*Float_Text_IO[23|46] 31|3w10 3r33
+X 14 a-iteint.ads
 24h9 Forward_Iterator
-32h9 Reversible_Iterator<24R9[6|119]>
-X 13 a-string.ads
-16K13*Strings 35e16 26|2r10 2r37
-X 16 a-strunb.ads
-83K21*Unbounded 765e26 26|2w18 2r45
-X 19 a-textio.ads
-58K13*Text_IO 725e16 26|4w10 4r27
-506U14*Put_Line 26|12s4 18s4
-X 23 alumno_model.ads
-7K9*Alumno_Model 32e17 26|1w6 1r24
-14P9*Alumno(13R9) 26|8r14
-17V13*Create{14P9} 26|8s24
-19V13*Get_Nombre{string} 26|12R21
-21U14*Rendir_Examen 26|13R12 14R12 15R12 16R12 17R12
-23V13*Calcular_Promedio{float} 26|18R21
-X 26 main.adb
-6U11*Main 6b11 20l5 20t9
-8p4 Alumno1{23|14P9} 12r13 13r4 14r4 15r4 16r4 17r4 18r13
+32h9 Reversible_Iterator<24R9[8|119]>
+X 16 a-string.ads
+16K13*Strings 35e16 31|2r10 2r37
+X 19 a-strunb.ads
+83K21*Unbounded 765e26 31|2w18 2r45
+X 22 a-textio.ads
+58K13*Text_IO 725e16 31|4w10 4r27
+506U14*Put_Line 31|16s7 23s4 29s4 34s4 36s4 38s4
+X 26 alumno_model.ads
+7K9*Alumno_Model 32e17 31|1w6 1r24
+14P9*Alumno(13R9) 31|10r14 14r30 18r54
+17V13*Create{14P9} 31|10s24
+19V13*Get_Nombre{string} 31|16R18 23R21
+21U14*Rendir_Examen 31|24R12 25R12 26R12 27R12 28R12
+23V13*Calcular_Promedio{float} 31|29R21
+X 27 aula.ads
+3+14 Tipo_Integrantes 31|18r34
+4U16 Mostrar_Integrante 31|19r33
+5k9*Aula 14e9 31|5w6 18r29
+9r4 Asistentes{8|91R9[7[31|18]]} 31|31m14[18] 31r14[18]
+12U11 Mostrar_Asistentes 31|32s14[18]
+X 31 main.adb
+8U11*Main 8b11 41l5 41t9
+10p4 Alumno1{26|14P9} 23r13 24r4 25r4 26r4 27r4 28r4 29r13 31r32
+12p4 Profesor1{32|13P9} 34r13 35r4 36r13 37r4 38r13
+14U14 Show_Alumno 14b14 14>26 17t7 19r55
+14p26 A{26|14P9} 16r16
+18K12 Curso_Ada[27|5] 31r4 32r4
+X 32 profesor_model.ads
+5K9*Profesor_Model 31|6w6 6r26 32|37e19
+13P9*Profesor(12R9) 31|12r16
+16V13*Create{13P9} 31|12s28
+18V13*Get_Nombre{string} 31|34R23
+19V13*Get_Curso{integer} 31|36R23 38R23
+22U14*Add_Curso 31|35R14
+26U14*Aumentar_Curso 31|37R14
+X 33 system.ads
+67M9*Address
+X 49 s-memory.ads
+53V13*Alloc{33|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{33|67M9} 105i<c,__gnat_realloc>22
+X 58 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
 

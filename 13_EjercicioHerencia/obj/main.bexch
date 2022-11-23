@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr
+20221123111236 998f3f1d8ad69dc42cce677e2791d264
+[BOUND OBJECT FILES]
+C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\obj\
+-LC:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
