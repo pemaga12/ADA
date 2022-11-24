@@ -1,0 +1,4 @@
+main.adb:26:07: error: missing "begin" for "declare" at line 25
+main.adb:27:29: error: missing ";"
+main.adb:28:30: error: missing ";"
+main.adb:37:01: error: "end;" expected for "begin" at line 25

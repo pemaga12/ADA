@@ -2,7 +2,7 @@ package body Alumno_Model is
 
    function Create(Nombre: String) return Alumno is
    begin
-      return new C_Alumno'(Nombre => To_Unbounded_String(Nombre), Notas => Empty);
+      return new C_Alumno'(C_Persona with  Nombre => To_Unbounded_String(Nombre), Notas => Empty);
    end;
    
    

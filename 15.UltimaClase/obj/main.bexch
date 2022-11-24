@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\15.UltimaClase\default.gpr
+20221124100406 861f6355f27689c6323594487d0b9ebe
+[BOUND OBJECT FILES]
+C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\15.UltimaClase\obj\modelo.o
+C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\15.UltimaClase\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\15.UltimaClase\obj\
+-LC:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\15.UltimaClase\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

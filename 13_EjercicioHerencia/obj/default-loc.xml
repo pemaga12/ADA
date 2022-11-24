@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
+    <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_file>
     <file_marker column=" 1" line=" 3" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.adb</vfs_file>
@@ -10,7 +10,7 @@
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 9" line=" 4" >
+    <file_marker column=" 1" line=" 3" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.adb</vfs_file>
     </file_marker>
@@ -42,7 +42,7 @@
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 59" line=" 10" >
+    <file_marker column=" 71" line=" 8" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
     </file_marker>
@@ -50,11 +50,11 @@
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 33" line=" 11" >
+    <file_marker column=" 34" line=" 11" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 27" line=" 10" >
+    <file_marker column=" 27" line=" 8" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
     </file_marker>
@@ -106,7 +106,7 @@
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\triangulo.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 12" >
+    <file_marker column=" 4" line=" 10" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
     </file_marker>
@@ -126,7 +126,7 @@
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 15" line=" 6" >
+    <file_marker column=" 45" line=" 5" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
     </file_marker>
@@ -158,7 +158,7 @@
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\triangulo.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 15" line=" 6" >
+    <file_marker column=" 45" line=" 5" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
     </file_marker>
@@ -166,7 +166,7 @@
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 26" line=" 8" >
+    <file_marker column=" 26" line=" 6" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
     </file_marker>
@@ -174,7 +174,7 @@
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 9" line=" 15" >
+    <file_marker column=" 9" line=" 13" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
     </file_marker>
@@ -186,7 +186,7 @@
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\triangulo.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 48" line=" 8" >
+    <file_marker column=" 48" line=" 14" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\triangulo.adb</vfs_file>
     </file_marker>
@@ -202,11 +202,75 @@
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\triangulo.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 20" line=" 13" >
+    <file_marker column=" 20" line=" 19" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\triangulo.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 6" line=" 1" >
+    <file_marker column=" 6" line=" 1" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 11" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 13" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 70" line=" 8" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 13" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 5" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 45" line=" 5" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 3" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 10" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 9" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 6" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\figura.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 1" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\triangulo_model.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 8" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\triangulo_model.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 1" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\triangulo_model.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 10" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\triangulo_model.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 3" >
+      <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
+      <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\triangulo_model.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 11" >
       <vfs_project>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\default.gpr</vfs_project>
       <vfs_file>C:\Users\pmartinezg\OneDrive - Indra\Documentos\TalentCamp\ADA\13_EjercicioHerencia\src\main.adb</vfs_file>
     </file_marker>
